@@ -1,6 +1,6 @@
 ---
 layout: post
-modal-id: Diet Optimization by using Simplex Method
+modal-id: 3
 title: Diet Optimization by using Simplex Method
 img: Project 4.png
 alt: Diet Optimization
