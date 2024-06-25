@@ -1,13 +1,19 @@
 ---
-layout: default
+layout: post
 modal-id: 1
-date: 2014-07-18
+title: Food Insecurity in ASEAN Countries Prediction Using Machine Learning (ML)
 img: Project 2.png
-alt: image-alt
-category: Web Development
-Description:Food Insecurity in ASEAN Countries prediction by using machine learning (ML)
-
-Domain: Food Insecurity in ASEAN Countries prediction by using machine learning (ML)
-
-client: Start Bootstrap
+alt: Food Insecurity Prediction
+description: >
+  Food Insecurity in ASEAN Countries prediction by using machine learning (ML)
+domain: Food Security
+data-source: Food and Agriculture Organization (FAO) and The World Bank data
+outcome: >
+  In summary, this project has successfully analyzed and predicted the impact of food insecurity (FI) in ASEAN countries, in addition to helping countries other than ASEAN to analyze their own food insecurity and predict food insecurity.
+research-significance: >
+  To provide useful insight and assist the government in making wise decisions and strategies to reduce food insecurity.
+tags:
+  - Machine Learning
+  - Python
+  - Food Insecurity
 ---
