@@ -1,11 +1,22 @@
 ---
-layout: default
-modal-id: 5
-date: 2014-07-14
+layout: post
+modal-id: Classification of Patients with Suspected Hepatitis C Virus Infection Using Machine Learning Approach
+title: Classification of Patients with Suspected Hepatitis C Virus Infection Using Machine Learning Approach
 img: Project 6.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: Class HepC
+description: >
+  This project aims to classify patients with Suspected Hepatitis C Virus Infection using various machine learning algorithms integrated with bagging/bootstrap technique.
+domain: Medical Informatics
+data-source: HCV Dataset from dataset from the University of California, Irvine (UCI) Machine Learning Repository
+outcome: >
+ This project has successfully performed data cleaning pre-processing and data cleaning before implemented to supervised machine learning models. Random Forest was found as the best model in this project to classify whether a patient having Hepatitis C virus infection with high accuracy at 99.187%. This project also able to five features identify the key factors in contributing to the interest outcome classification through CfsSubsetEval feature selection method. 
+
+research-significance: >
+ To assist Health care to quickly classify patients of Suspected Hepatitis C Virus Infection in the future and providing appropriate treatment. 
+tags:
+- WEKA
+- HepatitisC
+- Prediction model
+
+url: 
 ---
