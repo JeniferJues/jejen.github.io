@@ -1,6 +1,6 @@
 ---
 layout: post
-modal-id: Association Rules and Clustering Technique in Data Mining:Case Study of Online Retail
+modal-id: Association Rules and Clustering Technique in Data Mining
 title: Association Rules and Clustering Technique in Data Mining: Case Study of Online Retail
 img: Project 6.png
 alt: MBA
