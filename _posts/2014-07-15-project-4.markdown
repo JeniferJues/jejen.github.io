@@ -1,6 +1,6 @@
 ---
 layout: post
-modal-id: Cardiac Rehab Recommendation Prediction
+modal-id: 4
 title: Cardiac Rehab Recommendation Prediction
 img: Project 5.png
 alt: CRP
