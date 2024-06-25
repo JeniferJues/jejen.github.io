@@ -1,11 +1,21 @@
 ---
-layout: default
-modal-id: 4
-date: 2014-07-15
+layout: post
+modal-id: Cardiac Rehab Recommendation Prediction
+title: Cardiac Rehab Recommendation Prediction
 img: Project 5.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: CRP
+description: >
+  This project aims to identify relevant features contributing to cardiac rehabilitation recommendations plan and to develop machine learning models to predict cardiac rehabilitation recommendations plan.
+domain: Health Informatics
+data-source:  University Malaya Medical Centre (UMMC)
+outcome: >
+ This project has successfully developed machine learning to predict cardiac rehab recommendation by using seven different algorithms. As a result, integration of 10 features selected by filter method: Mutual Information and AdaBoost model demonstrated the best performance with accuracy of 0.951. Additionally, the techniques employed in this study may contribute to enhance cardiac rehabilitation recommendations prediction as model performance in this study has exceeded the performance of previous similar studies by Lofaro et al., (2016) and Van Tuijin et al., (2023).
+research-significance: >
+ Through this project, healthcare professionals will be able to gain valuable information to assist in making well-informed decisions about treatment options and adjustments. Besides, identifying key features that contribute to cardiac rehabilitation recommendations may help patients to achieve better outcomes.
+tags:
+ - Phyton
+ - Machine Learning
+ - Cardiac Rehab Recommendations
+
+url: 
 ---
