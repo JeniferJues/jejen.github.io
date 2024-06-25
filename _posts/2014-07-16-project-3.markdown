@@ -1,11 +1,17 @@
 ---
-layout: default
-modal-id: 3
-date: 2014-07-16
+layout: post
+modal-id: Diet Optimization by using Simplex Method
+title: Diet Optimization by using Simplex Method
 img: Project 4.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: Diet Optimization
+description: >
+  Optimizing  diet plan to minimize diet cost while fulfilling the nutrient requirement and diet constraints.
+domain: Diet Optimization
+data-source: Online grocery websites
+outcome: >
+ This project successfully optimize a diet plan for lunch meal with a minimal cost that fulfilling the group member preferences, diet constraints as well as nutritional requirements.
+Rese
+tags:
+
+url: 
 ---
