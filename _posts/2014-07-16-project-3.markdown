@@ -10,8 +10,12 @@ domain: Diet Optimization
 data-source: Online grocery websites
 outcome: >
  This project successfully optimize a diet plan for lunch meal with a minimal cost that fulfilling the group member preferences, diet constraints as well as nutritional requirements.
-Rese
+research significance: >
+  This project offers personalized diet plans at minimal cost, tailored to individuals' preferences while meeting their nutritional needs effectively.
 tags:
+- Octave
+- Simplex Method (GLPK)
+- Diet Optimization
 
 url: 
 ---
