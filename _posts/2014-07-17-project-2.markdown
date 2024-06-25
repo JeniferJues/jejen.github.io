@@ -1,6 +1,6 @@
 ---
 layout: post
-modal-id: Stroke Prediction
+modal-id: 2
 title: Stroke Prediction
 img: Project 3.png
 alt: Stroke Prediction
