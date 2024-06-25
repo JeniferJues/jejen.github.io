@@ -39,6 +39,11 @@
                 <strong>{{ post.research-significance }}</strong>
               </li>
               {% endif %}
+              {% if post.url %}
+              <li>Link:
+                <a href="{{ post.url }}" target="_blank">{{ post.url }}</a>
+              </li>
+              {% endif %}
             </ul>
             {% if post.tags %}
             <div class="tags">
