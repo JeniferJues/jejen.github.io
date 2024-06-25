@@ -10,6 +10,9 @@ domain: Healthcare
 data-source: Kaggle
 outcome: >
  Successfully developed a machine learning model with high accuracy at 0.90 and stroke prediction shinny Apps
+research-significance: >
+ Through this project,  Health care providers such as doctors able to assess the risk of a patient getting a stroke in the future and providing appropriate treatment. Besides, patient or any individual will be able to assess their risk of getting stroke for early treatment
+
 tags:
 - R programming
 - Stroke Prediction
