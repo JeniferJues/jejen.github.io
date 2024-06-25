@@ -1,11 +1,20 @@
 ---
-layout: default
-modal-id: 6
-date: 2014-07-15
-img: Project 7.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+layout: post
+modal-id: MBA
+title: Association Rules and Clustering Technique in Data Mining: Case Study of Online Retail
+img: Project 6.png
+alt: MBA
+description: >
+  This project applied data mining techniques such as association rule mining also known as market basket analysis and clustering on online retail data to extract useful insight and interesting pattern which would help in marketing analysis.
+domain: 
+data-source:  Kaggle
+outcome: >
+ This project has successfully performed market basket analysis to discover strong association between items such that both items were bought frequently together while clustering provided information on  customers’ purchase behavior and forms cluster based on their similarities.
+research-significance: >
+ The information extracted from this project help to assist in creating product recommendation and designing targeted marketing campaign.
+tags:
+- Market Basket Analysis
+- E-commerce
+- SAS
+url: 
 ---
