@@ -1,11 +1,18 @@
 ---
-layout: default
-modal-id: 2
-date: 2014-07-17
+layout: post
+modal-id: Stroke Prediction
+title: Stroke Prediction
 img: Project 3.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+alt: Stroke Prediction
+description: >
+   A project to develop machine learning model to predict risk of getting stroke and to identify the key factors of getting stroke
+domain: Healthcare
+data-source: Kaggle
+outcome: >
+ Successfully developed a machine learning model with high accuracy at 0.90 and stroke prediction shinny Apps
+tags:
+- R programming
+- Stroke Prediction
+- machine learning
+url: https://qbay9j-foo0soon-tham.shinyapps.io/The_Stroke_Project/
 ---
