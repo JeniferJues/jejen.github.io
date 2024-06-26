@@ -4,5 +4,50 @@
   background-color: #C2C2C2;
 }
 
+/* Adjust modal size and content */
+.portfolio-modal .modal-content {
+  padding: 20px;
+}
+
+.portfolio-modal .modal-body {
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height */
+}
+
+.portfolio-modal .carousel-inner .item img {
+  width: 100%; /* Ensure images fill their container */
+  height: auto;
+}
+
+.portfolio-modal .carousel-control {
+  font-size: 30px; /* Adjust control button size */
+  color: #333; /* Adjust control button color */
+}
+
+.portfolio-modal .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust caption background */
+  padding: 10px; /* Adjust caption padding */
+}
+
+/* Optional: Increase modal size */
+.portfolio-modal .modal-dialog {
+  max-width: 900px; /* Adjust maximum width of the modal */
+}
+
+/* Optional: Increase font size for headers */
+.portfolio-modal h2 {
+  font-size: 24px;
+}
+
+/* Optional: Adjust spacing */
+.portfolio-modal .modal-body {
+  padding-bottom: 20px;
+}
+
+/* Optional: Adjust close button position */
+.portfolio-modal .close-modal {
+  margin-top: -20px; /* Adjust vertical alignment */
+  margin-right: -20px; /* Adjust horizontal alignment */
+}
 
 
