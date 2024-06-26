@@ -12,9 +12,13 @@ outcome: >
   In summary, this project has successfully analyzed and predicted the impact of food insecurity (FI) in ASEAN countries, in addition to helping countries other than ASEAN to analyze their own food insecurity and predict food insecurity.
 research-significance: >
   To provide useful insight and assist the government in making wise decisions and strategies to reduce food insecurity.
+url: https://github.com/jenifermjues/Data-Analytics-group-assignment
 tags:
   - Machine Learning
   - Python
   - Food Insecurity
-url: https://github.com/jenifermjues/Data-Analytics-group-assignment
+photos:
+- src: wallpaper design.png
+  alt: "Photo 1"
+  description: "Just for testing"
 ---
