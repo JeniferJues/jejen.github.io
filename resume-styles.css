@@ -1,73 +1,65 @@
-/* Resume Page Styles */
-.resume-content {
-  display: flex;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.resume-content header h1 {
-  font-size: 2em;
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
+
+header.personal-info {
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.resume-content main {
-  display: flex;
-}
-
-.resume-content .sidebar {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.resume-content .profile-pic img {
-  width: 100%;
+header.personal-info .profile-pic {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-}
-
-.resume-content .personal-info h2,
-.resume-content .education h2,
-.resume-content .language h2,
-.resume-content .skills h2,
-.resume-content .work-experience h2,
-.resume-content .projects h2,
-.resume-content .references h2,
-.resume-content .career-objective h2 {
-  font-size: 1.5em;
+  object-fit: cover;
   margin-bottom: 10px;
 }
 
-.resume-content .personal-info p,
-.resume-content .education p,
-.resume-content .language p,
-.resume-content .skills ul,
-.resume-content .work-experience .job p,
-.resume-content .projects .project p,
-.resume-content .references p,
-.resume-content .career-objective p {
+header.personal-info h1 {
+  margin-bottom: 10px;
+}
+
+header.personal-info p {
   margin: 5px 0;
 }
 
-.resume-content .skills ul {
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 20%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content {
+  width: 80%;
+}
+
+.content ul {
   padding-left: 20px;
 }
 
-.resume-content .skills ul li {
-  list-style-type: disc;
-}
-
-.resume-content .main-content {
-  flex: 2;
-}
-
-.resume-content .work-experience .job ul,
-.resume-content .projects .project ul {
-  padding-left: 20px;
-}
-
-.resume-content .work-experience .job ul li,
-.resume-content .projects .project ul li {
-  list-style-type: disc;
+.content p {
+  margin: 5px 0;
 }
