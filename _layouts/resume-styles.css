@@ -1,4 +1,14 @@
 /* Resume Page Styles */
+.personal-info {
+    background-color: #f0f0f0; /* Example background color */
+}
+
+hr {
+    border-color: #000000; /* Black color */
+    border-width: 1px; /* Adjust thickness if needed */
+    margin: 20px 0; /* Example margin to separate sections */
+}
+
 .resume-content {
   display: flex;
   max-width: 1200px;
