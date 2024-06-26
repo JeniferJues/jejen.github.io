@@ -1,3 +1,13 @@
+.personal-info {
+    background-color: #F4E3DF; /* Example background color */
+}
+
+.hr {
+    border-color: #000000; /* Black color */
+    border-width: 1px; /* Adjust thickness if needed */
+    margin: 20px 0; /* Example margin to separate sections */
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
