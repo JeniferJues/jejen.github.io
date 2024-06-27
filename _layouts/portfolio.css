@@ -1,35 +1,47 @@
+/* Your custom styles */
 body {
-    overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 50px;
 }
 
-.slick-slider {
-    margin: 0 auto;
+.portfolio-modal .modal-content {
+  padding: 20px;
 }
 
-.slick-slide img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+.portfolio-modal .swiper-container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
 }
 
-.modal-content {
-    padding: 20px;
-    text-align: center;
+.portfolio-modal .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.item-details {
-    margin-top: 20px;
+.portfolio-modal .item-details {
+  margin-top: 20px;
 }
 
-.tags {
-    margin-top: 20px;
+.portfolio-modal .tags {
+  margin-top: 10px;
 }
 
-.tags ul {
-    padding: 0;
+.portfolio-modal .tags ul {
+  padding: 0;
 }
 
-.tags ul li {
-    display: inline;
-    margin-right: 10px;
+.portfolio-modal .tags ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.portfolio-modal .btn-default {
+  margin-top: 20px;
+}
+
+.portfolio-modal .btn-default i {
+  margin-right: 5px;
 }
