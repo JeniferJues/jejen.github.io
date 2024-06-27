@@ -18,7 +18,7 @@ tags:
   - Python
   - Food Insecurity
 photos:
-- src: Project 2.png
+- src: Project 1-2.png
   alt: "Photo 1"
   description: "Title"
 - src: Project 1-2.png
