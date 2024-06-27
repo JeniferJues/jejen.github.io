@@ -1,0 +1,24 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+
+.portfolio-modal .modal-dialog {
+  max-width: 100%;
+  margin: auto;
+}
+
+.portfolio-modal .modal-content {
+  height: 100vh;
+  border: none;
+  border-radius: 0;
+}
+
+.portfolio-modal .modal-body {
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.portfolio-modal .carousel-item img {
+  max-height: 80vh;
+  object-fit: contain;
+  width: 100%;
+}
