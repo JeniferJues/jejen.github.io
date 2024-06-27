@@ -6,7 +6,7 @@
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
-  margin: 0;
+  margin: auto;
 }
 
 .portfolio-modal .modal-content {
