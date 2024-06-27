@@ -5,21 +5,30 @@ body {
   padding-top: 50px;
 }
 
+/* Ensure modal/dialog fills the entire viewport */
 .portfolio-modal .modal-content {
-  padding: 50px;
+  height: 100vh; /* Full height of the viewport */
+  border: none;
+  border-radius: 0;
 }
 
-.portfolio-modal .swiper-container {
-  width: 900%;
-  height: 800px;
-  margin-bottom: 20px;
+.portfolio-modal .modal-body {
+  padding: 2rem; /* Adjust padding as needed */
+  overflow-y: auto;
 }
 
-.portfolio-modal .swiper-slide img {
-  width: 600%;
-  height: 600%;
-  object-fit: cover;
+/* Adjust Swiper gallery to fill modal content */
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
+
+.swiper-slide img {
+  width: 100%; /* Ensure images fill the swiper slide */
+  height: 100%; /* Ensure images fill the swiper slide */
+  object-fit: cover; /* Adjust image aspect ratio */
+}
+
 
 .portfolio-modal .item-details {
   margin-top: 20px;
