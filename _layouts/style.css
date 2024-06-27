@@ -53,4 +53,8 @@
 .portfolio-modal .carousel-item img {
       max-height: 500px;
       object-fit: contain;
-    }
+}
+
+.portfolio-modal .modal-body {
+      padding: 2rem;
+}
