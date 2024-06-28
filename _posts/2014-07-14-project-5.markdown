@@ -4,6 +4,17 @@ modal-id: 5
 title: Classification of Patients with Suspected Hepatitis C Virus Infection Using Machine Learning Approach
 img: Project 7.png
 alt: Class HepC
+Photos:
+- src: Project 7.png
+  alt: "Photo P7"
+- src: Project6-1.png
+  alt: "Photo P61"
+- src: Project 6-2.png
+  alt: "Photo P62"
+- src: Project 6-3.png
+  alt: "Photo P63"
+- src: Project 6-4.png
+  alt: "Photo P64"
 description: >
   This project aims to classify patients with Suspected Hepatitis C Virus Infection using various machine learning algorithms integrated with bagging/bootstrap technique.
 domain: Medical Informatics
