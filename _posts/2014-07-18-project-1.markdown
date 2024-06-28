@@ -2,7 +2,7 @@
 layout: post
 modal-id: 1
 title: Food Insecurity in ASEAN Countries Prediction Using Machine Learning (ML)
-img: Project 3.png
+img: Project 2.png
 alt: Stroke Prediction
 photos:
 - src: Project 2.png
