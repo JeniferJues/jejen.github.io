@@ -9,6 +9,8 @@ photos:
   alt: "Photo P6"
 - src: Project 7-1.png
   alt: "Photo P71"
+- src: Project 7-2.png
+  alt: "Photo P72"
 
 description: >
   This project applied data mining techniques such as association rule mining also known as market basket analysis and clustering on online retail data to extract useful insight and interesting pattern which would help in marketing analysis.
