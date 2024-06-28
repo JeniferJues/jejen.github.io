@@ -4,6 +4,15 @@ modal-id: 4
 title: Cardiac Rehab Recommendation Prediction
 img: Project 5.png
 alt: CRP
+Photos:
+- src: Project 5.png
+  alt: "Photo P5"
+- src: Project 5-1.png
+  alt: "Photo P51"
+- src: Project 5-2.png
+  alt: "Photo P52"
+- src: Project 5-3.png
+  alt: "Photo P53"
 description: >
   This project aims to identify relevant features contributing to cardiac rehabilitation recommendations plan and to develop machine learning models to predict cardiac rehabilitation recommendations plan.
 domain: Health Informatics
