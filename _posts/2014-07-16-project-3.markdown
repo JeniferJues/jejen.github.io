@@ -7,6 +7,10 @@ alt: Diet Optimization
 photos:
 - src: Project 4.png
   alt: "Photo P4"
+- src: Project 4-0.png
+  alt: "Photo P40"
+- src: Project 4-01.png
+  alt: "Photo P401"
 - src: Project 4-1.png
   alt: "Photo P41"
 - src: Project 4-2.png
