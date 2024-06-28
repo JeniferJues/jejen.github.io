@@ -91,3 +91,25 @@ section {
 .content p {
     margin: 5px 0;
 }
+
+.back-button-container {
+    margin-top: 20px; /* Adjust spacing as needed */
+    text-align: center; /* Center the button */
+}
+
+.back-button {
+    background-color: #007bff; /* Customize the background color */
+    color: white; /* Customize the text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Customize the hover color */
+}
+
