@@ -73,6 +73,21 @@ section {
     padding-left: 20px;
 }
 
+.education .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-entry {
+    flex: 1;
+    margin-right: 20px; /* Adjust the spacing between entries as needed */
+}
+
+.education-entry:last-child {
+    margin-right: 0;
+}
+
+
 .content p {
     margin: 5px 0;
 }
