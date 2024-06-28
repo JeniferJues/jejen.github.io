@@ -7,6 +7,10 @@ alt: CRP
 photos:
 - src: Project 5.png
   alt: "Photo P5"
+- src: Project 5-0.png
+  alt: "Photo P50"
+- src: Project 5-01.png
+  alt: "Photo P501"
 - src: Project 5-1.png
   alt: "Photo P51"
 - src: Project 5-2.png
