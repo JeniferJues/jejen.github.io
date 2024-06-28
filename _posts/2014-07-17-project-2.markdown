@@ -11,6 +11,8 @@ photos:
   alt: "Photo P31 "
 - src: Project 3-2.png
   alt: "Photo P32"
+- src: Project 3-3.png
+  alt: "Photo P33"
 description: >
    A project to develop machine learning model to predict risk of getting stroke and to identify the key factors of getting stroke
 domain: Healthcare
