@@ -4,6 +4,17 @@ modal-id: 6
 title: Association Rules and Clustering Technique in Data Mining (Case Study of Online Retail)
 img: Project 6.png
 alt: MBA
+Photos:
+- src: Project 6.png
+  alt: "Photo P6"
+- src: Project6-1.png
+  alt: "Photo P61"
+- src: Project 6-2.png
+  alt: "Photo P62"
+- src: Project 6-3.png
+  alt: "Photo P63"
+- src: Project 6-4.png
+  alt: "Photo P64"
 description: >
   This project applied data mining techniques such as association rule mining also known as market basket analysis and clustering on online retail data to extract useful insight and interesting pattern which would help in marketing analysis.
 domain: 
