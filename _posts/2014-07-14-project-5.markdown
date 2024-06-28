@@ -7,10 +7,12 @@ alt: Class HepC
 photos:
 - src: Project 7-Jenifer.png
   alt: "Photo P7"
-- src: Project 6-1.png
+- src: Project 6-01.png
   alt: "Photo P61"
 - src: Project 6-02.png
   alt: "Photo P602"
+- src: Project 6-1.png
+  alt: "Photo P61"
 - src: Project 6-2.png
   alt: "Photo P62"
 - src: Project 6-3.png
