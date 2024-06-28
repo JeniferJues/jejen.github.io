@@ -87,6 +87,17 @@ section {
     margin-right: 0;
 }
 
+.skills .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the spacing between entries as needed */
+}
+
+.skills-entry {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .content p {
     margin: 5px 0;
