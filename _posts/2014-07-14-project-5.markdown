@@ -2,14 +2,14 @@
 layout: post
 modal-id: 5
 title: Classification of Patients with Suspected Hepatitis C Virus Infection Using Machine Learning Approach
-img: Project 7.png
+img: Project 7-Jenifer.png
 alt: Class HepC
 photos:
 - src: Project 7-Jenifer.png
   alt: "Photo P7"
-- src: Project6-1.png
+- src: Project 6-1.png
   alt: "Photo P61"
-- src: Project6-02.png
+- src: Project 6-02.png
   alt: "Photo P602"
 - src: Project 6-2.png
   alt: "Photo P62"
