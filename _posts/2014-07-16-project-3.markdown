@@ -4,6 +4,25 @@ modal-id: 3
 title: Diet Optimization by using Simplex Method
 img: Project 4.png
 alt: Diet Optimization
+Photos:
+- src: Project 4.png
+  alt: "Photo P4"
+- src: Project 4-1.png
+  alt: "Photo P41"
+- src: Project 4-2.png
+  alt: "Photo P42"
+- src: Project 4-3.png
+  alt: "Photo P43"
+- src: Project 4-4.png
+  alt: "Photo P44"
+- src: Project 4-5.png
+  alt: "Photo P45"
+- src: Project 4-6.png
+  alt: "Photo P46"
+- src: Project 4-7.png
+  alt: "Photo P47"
+- src: Project 4-8.png
+  alt: "Photo P48"
 description: >
   Optimizing  diet plan to minimize diet cost while fulfilling the nutrient requirement and diet constraints.
 domain: Diet Optimization
