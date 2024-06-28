@@ -4,7 +4,7 @@ modal-id: 2
 title: Stroke Prediction
 img: Project 3.png
 alt: Stroke Prediction
-Photos:
+photos:
 - src: Project 3.png
   alt: "Photo P3"
 - src: Project 3-1.png
