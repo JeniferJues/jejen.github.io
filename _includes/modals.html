@@ -71,10 +71,8 @@
                   <strong>{{ post.research-significance }}</strong>
                 </li>
                 {% endif %}
-                {% if post.url %}
-                <li>Link:
-                  <a href="{{ post.url }}" target="_blank">{{ post.url }}</a>
-                </li>
+                {% if page.github_repo %}
+                  <p>Link: <a href="{{ page.github_repo }}" target="_blank">{{ page.github_repo }}</a></p>
                 {% endif %}
               </ul>
               {% if post.tags %}
