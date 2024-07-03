@@ -4,7 +4,7 @@ modal-id: 2
 title: Stroke Prediction
 img: Project 3.png
 alt: Stroke Prediction
-github-repo: https://qbay9j-foo0soon-tham.shinyapps.io/The_Stroke_Project/
+github_repo: https://qbay9j-foo0soon-tham.shinyapps.io/The_Stroke_Project/
 photos:
 - src: Project 3.png
   alt: "Photo P3"
