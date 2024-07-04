@@ -148,5 +148,16 @@
       </div>
     </main>
   </div>
+  <script>
+        function downloadFile() {
+            var fileUrl = 'RESUME-JeniferJues.pdf';
+            var a = document.createElement('a');
+            a.href = fileUrl;
+            a.download = 'document.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
 </body>
 </html>
