@@ -21,6 +21,17 @@ body {
     padding: 20px;
 }
 
+function downloadFile() {
+            // Replace with the path to your file
+            var fileUrl = 'RESUME-JeniferJues.pdf';
+            var a = document.createElement('a');
+            a.href = fileUrl;
+            a.download = 'document.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
 hr {
     border: 1px solid #ccc;
     margin: 20px 0; /* Adjust margin for consistent spacing */
