@@ -21,15 +21,18 @@ body {
     padding: 20px;
 }
 
-function downloadFile() {
-            // Replace with the path to your file
-            var fileUrl = 'RESUME-JeniferJues.pdf';
-            var a = document.createElement('a');
-            a.href = fileUrl;
-            a.download = 'document.pdf';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+.download-btn {
+            background-color: #007bff; /* Bootstrap primary color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3; /* Darker shade of the primary color */
         }
 
 hr {
