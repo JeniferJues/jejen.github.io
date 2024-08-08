@@ -2,10 +2,10 @@
 layout: post
 modal-id: 3
 title: Diet Optimization by using Simplex Method
-img: Diet Optimization.png
+img: 3.png
 alt: Diet Optimization
 photos:
-- src: Diet Optimization.png
+- src: 3.png
   alt: "Photo P4"
 - src: Project 4-0.png
   alt: "Photo P40"
