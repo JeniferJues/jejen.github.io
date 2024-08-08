@@ -2,11 +2,11 @@
 layout: post
 modal-id: 1
 title: Food Insecurity in ASEAN Countries Prediction Using Machine Learning (ML)
-img: Project 2.png
+img: Food Insecurity.png
 alt: Stroke Prediction
 github_repo: "https://github.com/jenifermjues/Data-Analytics-group-assignment"
 photos:
-- src: Project 2.png
+- src: Food Insecurity.png
   alt: "Photo 1"
   description: "Title"
 - src: Project 1-2.png
