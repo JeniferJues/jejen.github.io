@@ -7,11 +7,11 @@ alt: MBA
 github_repo: https://jejenjuju.shinyapps.io/telcochurn/
 photos:
 - src: 7.png
-  alt: "Photo P7"
-- src: Project 7-1.png
-  alt: "Photo P71"
-- src: Project 7-2.png
-  alt: "Photo P72"
+  alt: "Photo-8"
+- src: Tensorflow-1.png
+  alt: "Photo P81"
+- src: Tensorflow-2.png
+  alt: "Photo P82"
 
 description: >
   This project aims to utilize telekom customer data to explore the potential of deep learning technique in predicting customer churn and deploy it as web app and dashboard. 
