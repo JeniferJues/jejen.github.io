@@ -2,10 +2,10 @@
 layout: post
 modal-id: 6
 title: Association Rules and Clustering Technique in Data Mining (Case Study of Online Retail)
-img: MBA.png
+img: 6.png
 alt: MBA
 photos:
-- src: MBA.png
+- src: 6.png
   alt: "Photo P7"
 - src: Project 7-1.png
   alt: "Photo P71"
