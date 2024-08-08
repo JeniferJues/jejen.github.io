@@ -124,52 +124,81 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    z-index: 1070; /* Ensure the navbar is above the lightbox */
+    position: relative;
 }
 
-.navbar a:focus {
-    outline: 0;
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.navbar .navbar-nav {
-    letter-spacing: 1px;
+.navbar-brand {
+    float: left;
+    display: block;
+    font-size: 1.5em;
+    padding: 15px 15px;
+    text-decoration: none;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
+.navbar-collapse {
+    float: right;
 }
 
-.navbar-default,
-.navbar-inverse {
-    border: 0;
+.navbar-nav {
+    display: flex;
+    align-items: center;
 }
+
+.navbar-nav > li {
+    list-style: none;
+}
+
+.navbar-nav > li > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: none; /* Hide toggle button on larger screens */
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+        display: block; /* Show toggle button on smaller screens */
+    }
+
+    .navbar-collapse {
+        display: none; /* Hide navbar items on smaller screens */
+        width: 100%;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block; /* Show navbar items when toggled */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav > li {
+        width: 100%;
+    }
+
+    .navbar-nav > li > a {
+        width: 100%;
+    }
+}
+
+.navbar-nav > .active > a {
+    background-color: #{{ site.color.secondary-dark }} !important;
+}
+
 
 section {
     padding: 100px 0;
@@ -493,8 +522,18 @@ footer .footer-below {
 
 /* Navbar Styles */
 .navbar {
-    z-index: 1070; /* Ensure the navbar is above the lightbox */
+    z-index: 1070;
+    position: relative;
 }
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
