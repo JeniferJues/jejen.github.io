@@ -6,6 +6,8 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="portfolio.css"> <!-- Your custom styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 </head>
 <body>
   <!-- Portfolio Modals -->
@@ -28,7 +30,9 @@
                   <div class="swiper-wrapper">
                     {% for photo in post.photos %}
                     <div class="swiper-slide">
-                      <img src="img/portfolio/{{ photo.src }}" class="img-responsive img-centered" alt="{{ photo.alt }}">
+                      <a href="img/portfolio/{{ photo.src }}" data-lightbox="portfolio-{{ post.modal-id }}" data-title="{{ photo.alt }}">
+                        <img src="img/portfolio/{{ photo.src }}" class="img-responsive img-centered" alt="{{ photo.alt }}">
+                      </a>
                     </div>
                     {% endfor %}
                   </div>
@@ -85,20 +89,25 @@
     </div>
   </div>
   {% endfor %}
-  <!-- Swiper JS -->
+  <!-- jQuery, Bootstrap, Swiper, and Lightbox JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+    $(document).ready(function() {
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
     });
   </script>
 </body>
