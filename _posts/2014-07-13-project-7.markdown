@@ -1,0 +1,27 @@
+---
+layout: post
+modal-id: 7
+title: TensorFlow Customer Churn Prediction
+img: 7.png
+alt: MBA
+photos:
+- src: 7.png
+  alt: "Photo P7"
+- src: Project 7-1.png
+  alt: "Photo P71"
+- src: Project 7-2.png
+  alt: "Photo P72"
+
+description: >
+  This project aims to utilize telekom customer data to explore the potential of deep learning technique in predicting customer churn and deploy it as web app and dashboard. 
+domain: Business Informatic
+data-source: Kaggle
+outcome: >
+ This project has successfully developed tensorflow model to predict customer churn and deployed it on shiny apps.
+tags:
+- Churn Prediction
+- E-commerce
+- Tensorflow
+- Deep Learning
+url: https://jejenjuju.shinyapps.io/telcochurn/
+---
