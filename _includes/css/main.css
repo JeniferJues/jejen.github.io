@@ -125,7 +125,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    z-index: 1070; /* Ensure the navbar is above the lightbox */
+    z-index: 3; /* Ensure the navbar is above the lightbox */
     position: relative;
 }
 
@@ -502,11 +502,11 @@ footer .footer-below {
 }
 
 .lightboxOverlay {
-  z-index: 1060;
+  z-index: 2;
 }
 
 .lightbox {
-  z-index: 1061;
+  z-index: 2;
 }
 
 .lightbox .lb-image {
@@ -520,24 +520,6 @@ footer .footer-below {
   padding-top: 10px;
 }
 
-/* Navbar Styles */
-.navbar {
-    z-index: 1070;
-    position: relative;
-}
-
-.navbar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-
-
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
