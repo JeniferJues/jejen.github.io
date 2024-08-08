@@ -2,11 +2,11 @@
 layout: post
 modal-id: 2
 title: Stroke Prediction
-img: Project 3.png
+img: Stroke Prediction.png
 alt: Stroke Prediction
 github_repo: https://qbay9j-foo0soon-tham.shinyapps.io/The_Stroke_Project/
 photos:
-- src: Project 3.png
+- src: Stroke Prediction.png
   alt: "Photo P3"
 - src: Project 3-1.png
   alt: "Photo P31 "
