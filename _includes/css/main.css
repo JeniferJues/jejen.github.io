@@ -124,81 +124,52 @@ header .intro-text .skills {
     }
 }
 
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
 .navbar {
-    z-index: 3; /* Ensure the navbar is above the lightbox */
-    position: relative;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
-.navbar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.navbar a:focus {
+    outline: 0;
 }
 
-.navbar-brand {
-    float: left;
-    display: block;
-    font-size: 1.5em;
-    padding: 15px 15px;
-    text-decoration: none;
+.navbar .navbar-nav {
+    letter-spacing: 1px;
 }
 
-.navbar-collapse {
-    float: right;
+.navbar .navbar-nav li a:focus {
+    outline: 0;
 }
 
-.navbar-nav {
-    display: flex;
-    align-items: center;
+.navbar-default,
+.navbar-inverse {
+    border: 0;
 }
-
-.navbar-nav > li {
-    list-style: none;
-}
-
-.navbar-nav > li > a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-}
-
-.navbar-toggle {
-    display: none; /* Hide toggle button on larger screens */
-}
-
-@media (max-width: 767px) {
-    .navbar-toggle {
-        display: block; /* Show toggle button on smaller screens */
-    }
-
-    .navbar-collapse {
-        display: none; /* Hide navbar items on smaller screens */
-        width: 100%;
-    }
-
-    .navbar-collapse.collapse.in {
-        display: block; /* Show navbar items when toggled */
-    }
-
-    .navbar-nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-nav > li {
-        width: 100%;
-    }
-
-    .navbar-nav > li > a {
-        width: 100%;
-    }
-}
-
-.navbar-nav > .active > a {
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
-
 
 section {
     padding: 100px 0;
@@ -502,11 +473,11 @@ footer .footer-below {
 }
 
 .lightboxOverlay {
-  z-index: 2;
+  z-index: 1060;
 }
 
 .lightbox {
-  z-index: 2;
+  z-index: 1061;
 }
 
 .lightbox .lb-image {
@@ -520,59 +491,13 @@ footer .footer-below {
   padding-top: 10px;
 }
 
+.navbar-nav>.active>a {
+    background-color: #{{ site.color.secondary-dark }} !important;
+}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
-}
-
-/* Custom styles for image zoom */
-.image-zoom {
-    position: relative;
-    cursor: zoom-in;
-}
-
-.image-zoom:hover::after {
-    content: '\f002';
-    font-family: FontAwesome;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    color: rgba(255, 255, 255, 0.8);
-    pointer-events: none;
-}
-
-.image-zoom img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.image-zoom img:hover {
-    transform: scale(1.05);
-}
-
-.image-zoom-modal .modal-dialog {
-    max-width: 100%;
-    width: auto;
-}
-
-.image-zoom-modal .modal-content {
-    background: none;
-    border: none;
-    box-shadow: none;
-}
-
-.image-zoom-modal .modal-body {
-    padding: 0;
-}
-
-.image-zoom-modal img {
-    width: 100%;
-    height: auto;
 }
