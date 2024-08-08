@@ -2,10 +2,10 @@
 layout: post
 modal-id: 4
 title: Cardiac Rehab Recommendation Prediction
-img: CRP Prediction.png
+img: 4.png
 alt: CRP
 photos:
-- src: CRP Prediction.png
+- src: 4.png
   alt: "Photo P5"
 - src: Project 5-0.png
   alt: "Photo P50"
