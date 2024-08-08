@@ -491,6 +491,11 @@ footer .footer-below {
   padding-top: 10px;
 }
 
+/* Navbar Styles */
+.navbar {
+    z-index: 1070; /* Ensure the navbar is above the lightbox */
+}
+
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
