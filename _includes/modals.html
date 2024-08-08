@@ -30,9 +30,7 @@
                   <div class="swiper-wrapper">
                     {% for photo in post.photos %}
                     <div class="swiper-slide">
-                      <a href="img/portfolio/{{ photo.src }}" data-lightbox="portfolio-{{ post.modal-id }}" data-title="{{ photo.alt }}">
                         <img src="img/portfolio/{{ photo.src }}" class="img-responsive img-centered" alt="{{ photo.alt }}">
-                      </a>
                     </div>
                     {% endfor %}
                   </div>
