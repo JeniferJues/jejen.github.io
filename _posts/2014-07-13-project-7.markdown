@@ -4,6 +4,7 @@ modal-id: 7
 title: TensorFlow Customer Churn Prediction
 img: 7.png
 alt: MBA
+github_repo: https://jejenjuju.shinyapps.io/telcochurn/
 photos:
 - src: 7.png
   alt: "Photo P7"
